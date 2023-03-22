@@ -33,7 +33,17 @@ namespace SI_Task6.View.MainPage
 
         private void BtnExit_Click(object sender, RoutedEventArgs e)
         {
+            Exit.Visibility = Visibility.Visible;
+        }
+
+        private void BTNExit_Click(object sender, RoutedEventArgs e)
+        {
             Application.Current.Shutdown();
+        }
+
+        private void BTNNo_Click(object sender, RoutedEventArgs e)
+        {
+            Exit.Visibility = Visibility.Hidden;
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using SI_Task6.View.MainPage.TaskPage;
+﻿using SI_Task6.View.MainPage;
 using System;
 using System.Collections.Generic;
 using System.Linq;

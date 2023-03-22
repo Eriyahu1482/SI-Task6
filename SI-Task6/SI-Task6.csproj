@@ -9,13 +9,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
+    <None Remove="Images\гр.png" />
+    <None Remove="Images\жр.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MaterialDesignColors" Version="2.1.2" />
     <PackageReference Include="MaterialDesignThemes" Version="4.8.0" />
     <Resource Include="Font\VT323-Regular.ttf" />
+    <Resource Include="Images\гр.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\жр.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="View\MainPage\TaskPage\" />
   </ItemGroup>
 
 </Project>

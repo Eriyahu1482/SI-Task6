@@ -4,11 +4,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:SI_Task6.View.MainPage"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-    Background="Transparent">
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    Background="Transparent"
+    mc:Ignorable="d">
     <Border Background="#C3BEF0" CornerRadius="15">
         <Grid>
             <Border
@@ -18,47 +19,131 @@
                 <Grid>
                     <ScrollViewer>
                         <StackPanel Width="150">
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN1" Click="BTN1_Click" >
-                                <TextBlock Text="Task1" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN1"
+                                Click="BTN1_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task1" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN2" Click="BTN2_Click" >
-                                <TextBlock Text="Task2" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN2"
+                                Click="BTN2_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task2" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN3" Click="BTN3_Click" >
-                                <TextBlock Text="Task3" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN3"
+                                Click="BTN3_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task3" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN4" Click="BTN4_Click" >
-                                <TextBlock Text="Task4" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN4"
+                                Click="BTN4_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task4" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN5" Click="BTN5_Click" >
-                                <TextBlock Text="Task5" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN5"
+                                Click="BTN5_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task5" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN6" Click="BTN6_Click" >
-                                <TextBlock Text="Task6" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN6"
+                                Click="BTN6_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task6" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN7" Click="BTN7_Click" >
-                                <TextBlock Text="Task7" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN7"
+                                Click="BTN7_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task7" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN8" Click="BTN8_Click" >
-                                <TextBlock Text="Task8" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN8"
+                                Click="BTN8_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task8" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN9" Click="BTN9_Click" >
-                                <TextBlock Text="Task9" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN9"
+                                Click="BTN9_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task9" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN10" Click="BTN10_Click" >
-                                <TextBlock Text="Task10" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN10"
+                                Click="BTN10_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task10" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN11" Click="BTN11_Click" >
-                                <TextBlock Text="Task11" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN11"
+                                Click="BTN11_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task11" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN12" Click="BTN12_Click" >
-                                <TextBlock Text="Task12" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN12"
+                                Click="BTN12_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task12" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN13" Click="BTN13_Click" >
-                                <TextBlock Text="Task13" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN13"
+                                Click="BTN13_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task13" />
                             </Button>
-                            <Button Style="{StaticResource BtnScrll}" x:Name="BTN14" Click="BTN14_Click" >
-                                <TextBlock Text="Task14" Style="{StaticResource FontTest}" FontSize="25"/>
+                            <Button
+                                x:Name="BTN14"
+                                Click="BTN14_Click"
+                                Style="{StaticResource BtnScrll}">
+                                <TextBlock
+                                    FontSize="25"
+                                    Style="{StaticResource FontTest}"
+                                    Text="Task14" />
                             </Button>
                         </StackPanel>
                     </ScrollViewer>
@@ -67,26 +152,42 @@
             <Border
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
-                CornerRadius="15"
-                Background="#CFE1FC"/>
+                Background="#CFE1FC"
+                CornerRadius="15" />
             <Border
                 x:Name="Brd1"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top">
+                        <Image Source="/Images/гр.png" />
                     </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer1" Click="BtnAnswer1_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Button
+                        x:Name="BtnAnswer1"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer1_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -94,17 +195,33 @@
                 x:Name="Brd2"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top">
+                        <Image Source="/Images/жр.png" />
                     </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer2" Click="BtnAnswer2_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Button
+                        x:Name="BtnAnswer2"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer2_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -112,17 +229,31 @@
                 x:Name="Brd3"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer3" Click="BtnAnswer3_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer3"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer3_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -130,17 +261,31 @@
                 x:Name="Brd4"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer4" Click="BtnAnswer4_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer4"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer4_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -148,17 +293,31 @@
                 x:Name="Brd5"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer5" Click="BtnAnswer5_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer5"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer5_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -166,17 +325,31 @@
                 x:Name="Brd6"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer6" Click="BtnAnswer6_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer6"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer6_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -184,17 +357,31 @@
                 x:Name="Brd7"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer7" Click="BtnAnswer7_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer7"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer7_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -202,17 +389,31 @@
                 x:Name="Brd8"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer8" Click="BtnAnswer8_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer8"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer8_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -220,17 +421,31 @@
                 x:Name="Brd9"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer9" Click="BtnAnswer9_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer9"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer9_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -238,17 +453,31 @@
                 x:Name="Brd10"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer10" Click="BtnAnswer10_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer10"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer10_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -256,17 +485,31 @@
                 x:Name="Brd11"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer11" Click="BtnAnswer11_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer11"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer11_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -274,17 +517,31 @@
                 x:Name="Brd12"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer12" Click="BtnAnswer12_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer12"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer12_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -292,17 +549,31 @@
                 x:Name="Brd13"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer13" Click="BtnAnswer13_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer13"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer13_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
@@ -310,22 +581,49 @@
                 x:Name="Brd14"
                 Width="600"
                 Height="420"
+                Margin="25,0,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Center"
-                Margin=" 25 0 0 0"
+                Background="Transparent"
                 CornerRadius="15"
-                Background="Transparent" Visibility="Hidden">
+                Visibility="Hidden">
                 <Grid>
-                    <Border Width="500" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0">
-
-                    </Border>
-                    <Button Style="{StaticResource BTN}" Width="120" Height="40" VerticalAlignment="Center" Margin="0 250 0 0" x:Name="BtnAnswer14" Click="BtnAnswer14_Click">
-                        <TextBlock Text="Answer" Style="{StaticResource FontTest}" FontSize="25"/>
+                    <Border
+                        Width="500"
+                        Height="200"
+                        Margin="0,20,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top" />
+                    <Button
+                        x:Name="BtnAnswer14"
+                        Width="120"
+                        Height="40"
+                        Margin="0,250,0,0"
+                        VerticalAlignment="Center"
+                        Click="BtnAnswer14_Click"
+                        Style="{StaticResource BTN}">
+                        <TextBlock
+                            FontSize="25"
+                            Style="{StaticResource FontTest}"
+                            Text="Answer" />
                     </Button>
                 </Grid>
             </Border>
-            <Button x:Name="BtnBack" Click="BtnBack_Click" Style="{StaticResource BTN}" Width="45" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5 5 0 0">
-                <materialDesign:PackIcon Kind="ArrowBack" Width="15" Height="20" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Button
+                x:Name="BtnBack"
+                Width="45"
+                Height="25"
+                Margin="5,5,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="BtnBack_Click"
+                Style="{StaticResource BTN}">
+                <materialDesign:PackIcon
+                    Width="15"
+                    Height="20"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Kind="ArrowBack" />
             </Button>
         </Grid>
     </Border>
